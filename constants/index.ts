@@ -354,6 +354,37 @@ export const PROJECTS = [
   },
 ] as const;
 
+export const CERTIFICATES = [
+  {
+    title: "Certificate 1",
+    image: "/certificates/sertif1.jpeg",
+  },
+  {
+    title: "Certificate 2",
+    image: "/certificates/sertif2.jpeg",
+  },
+  {
+    title: "Certificate 3",
+    image: "/certificates/sertif3.jpeg",
+  },
+  {
+    title: "Certificate 4",
+    image: "/certificates/sertif4.jpeg",
+  },
+  {
+    title: "Certificate 5",
+    image: "/certificates/sertif5.jpeg",
+  },
+  {
+    title: "Certificate 6",
+    image: "/certificates/sertif6.jpeg",
+  },
+  {
+    title: "Certificate 7",
+    image: "/certificates/sertif7.jpeg",
+  },
+] as const;
+
 export const FOOTER_DATA = [
   {
     title: "Community",
@@ -386,7 +417,7 @@ export const FOOTER_DATA = [
       {
         name: "TikTok",
         icon: FaTiktok,
-        link: "https://www.tiktok.com/@maestro_leonardo?_r=1&_t=ZS-98X8GW4XwOa",
+        link: "https://www.tiktok.com/@its_val033?_r=1&_t=ZS-98XZ7SHgkOC",
       },
       {
         name: "Facebook",
@@ -409,6 +440,10 @@ export const NAV_LINKS = [
   {
     title: "Projects",
     link: "#projects",
+  },
+  {
+    title: "Certificates",
+    link: "#certificates",
   },
 ] as const;
 
