@@ -1,10 +1,8 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaTiktok } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
 } from "react-icons/rx";
 
 export const SKILL_DATA = [
@@ -92,17 +90,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/gnicola0_0?igsh=MTJ0YjQ4cXptb3hpaw==",
+  },
+  {
+    name: "TikTok",
+    icon: FaTiktok,
+    link: "https://www.tiktok.com/@maestro_leonardo?_r=1&_t=ZS-98X8GW4XwOa",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    link: "https://www.facebook.com/share/193Hsc7RWu/",
   },
 ] as const;
 
@@ -257,27 +255,102 @@ export const OTHER_SKILL = [
   },
 ] as const;
 
-export const PROJECTS = [
+export const LANGUAGES = [
   {
-    title: "Modern Next.js 14 Portfolio",
-    description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+    skill_name: "HTML",
+    image: "html.png",
+    width: 80,
+    height: 80,
   },
   {
-    title: "Interactive Cards Portfolio",
+    skill_name: "CSS",
+    image: "css.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "JavaScript",
+    image: "js.png",
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Dart",
+    image: "dart.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "PHP",
+    image: "php.png",
+    width: 80,
+    height: 80,
+  },
+] as const;
+
+export const TECHNOLOGIES = [
+  {
+    skill_name: "Bootstrap",
+    image: "bootstrap.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C++",
+    image: "cplusplus.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C#",
+    image: "csharp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Flutter",
+    image: "flutter.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Python",
+    image: "python.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "SQL",
+    image: "sql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "TypeScript",
+    image: "typescript.png",
+    width: 80,
+    height: 80,
+  },
+] as const;
+
+export const PROJECTS = [
+  {
+    title: "Gaming Portfolio Project",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      'A cinematic gaming-inspired landing page built to showcase the identity of the fictional NAVH legendary guild. Designed with a bold dark aesthetic, responsive layout, and modern web design principles, this project highlights my front-end development and UI design skills.',
+    image: "/projects/navh.jpeg",
+  },
+  {
+    title: "MudaApp",
+    description:
+      'My first database-driven web application built for the Software Engineering department at SMK Muhammadiyah. This project features a user authentication system and demonstrates my early experience with database integration, CRUD operations, and web application development using Laravel and MySQL.',
+    image: "/projects/mudaapp.jpeg",
   },
   {
     title: "Space Themed Website",
     description:
       'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+    image: "/projects/space-landing-page.png",
   },
 ] as const;
 
@@ -288,17 +361,17 @@ export const FOOTER_DATA = [
       {
         name: "YouTube",
         icon: FaYoutube,
-        link: "https://youtube.com",
+        link: "https://youtube.com/@nightfall-i1i?si=pjWwO-uKiqourKmB",
       },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/nicol-beep",
       },
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.gg/RutEFYdvg",
       },
     ],
   },
@@ -308,37 +381,17 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/gnicola0_0?igsh=MTJ0YjQ4cXptb3hpaw==",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
+        name: "TikTok",
+        icon: FaTiktok,
+        link: "https://www.tiktok.com/@maestro_leonardo?_r=1&_t=ZS-98X8GW4XwOa",
       },
       {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
+        name: "Facebook",
+        icon: FaFacebook,
+        link: "https://www.facebook.com/share/193Hsc7RWu/",
       },
     ],
   },
@@ -359,6 +412,4 @@ export const NAV_LINKS = [
   },
 ] as const;
 
-export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
-};
+
